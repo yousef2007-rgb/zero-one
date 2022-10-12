@@ -1,8 +1,27 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+## About this project
 
-First, run the development server:
+this is a website for the robot team in alredwan schools
+
+<hr/>
+
+## If you want to run this website localy
+
+first download the project files with:
+
+```bash
+git clone https://github.com/yousef2007-rgb/zero-one.git
+```
+
+then get into the project and npm install
+
+```bash
+cd zero-one
+npm install
+```
+
+then run using this command:
 
 ```bash
 npm run dev
