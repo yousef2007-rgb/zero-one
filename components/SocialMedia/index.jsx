@@ -6,9 +6,7 @@ import Youtube from "../../public/icons/youtubeLogo";
 export default function Index({}) {
   return (
     <div className=" flex ml-auto">
-      <Button Icon={<Facebook />} link={"#"} />
       <Button Icon={<Instagram />} link={"#"} />
-      <Button Icon={<Youtube />} link={"#"} />
     </div>
   );
 }
