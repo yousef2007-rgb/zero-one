@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Silkscreen&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&family=Silkscreen&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -13,6 +13,9 @@
   .text-robot {
     font-family: "Silkscreen", cursive;
   }
+  .text-normal {
+    font-family: "Roboto Mono", monospace;
+  }
 }
 $red: #fb6a4b;
 html,
@@ -22,6 +25,7 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   transition: color 500ms ease-in;
+  scroll-behavior: smooth;
 }
 
 a {
@@ -43,29 +47,31 @@ a {
     color: white;
     background: #1c1b1c;
     background-image: linear-gradient(#1c1c1c 80%, #323131);
+    background-attachment: fixed;
     min-height: 100vh;
-    svg {
-      width: 30px;
-      margin: 12px;
-      path {
-        fill: white;
-      }
-    }
-    h1 {
-      font-size: 2rem;
-      font-family: "Silkscreen", cursive;
-      width: fit-content;
-    }
-    a:hover {
-      color: $red;
-      transform: scale(1.1);
-      path {
-        fill: $red;
-      }
-    }
   }
 }
 
+svg {
+  width: 30px;
+  margin: 12px;
+  path {
+    fill: white;
+  }
+}
+h1 {
+  font-size: 2rem;
+  font-family: "Silkscreen", cursive;
+  width: fit-content;
+}
+a:hover {
+  color: $red;
+  transform: scale(1.1);
+
+  path {
+    fill: $red;
+  }
+}
 :root {
   color-scheme: dark;
 }

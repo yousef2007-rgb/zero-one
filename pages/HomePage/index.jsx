@@ -15,7 +15,23 @@ export default function Home() {
       </Head>
       <Header />
       <Intro />
-      <main className={styles.main}></main>
+      <main className=" flex flex-col items-center mt-52 min-h-screen">
+        <h2 className="bg-myorange inline-block text-gray7 px-6 py-4 text-6xl shadow-xl text-robot w-fit">
+          who are we?
+        </h2>
+        <span
+          className="animate-bounce text-3xl block cursor-pointer mt-8"
+          onClick={() => window.scrollTo(0, 1000)}
+        >
+          👇
+        </span>
+        <p className="text-5xl text-gray3 px-4 text-normal text-center mt-52">
+          we are a group of AlredwanSchool's student's who's itrested in{" "}
+          <span className="text-red-500 animate-pulse font-display">
+            Robots
+          </span>{" "}
+        </p>
+      </main>
 
       <footer className={styles.footer}></footer>
     </div>

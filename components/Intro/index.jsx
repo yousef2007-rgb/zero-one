@@ -2,12 +2,13 @@ import React from "react";
 
 export default function Intro() {
   return (
-    <div className=" w-full h-screen flex items-center justify-center flex-col">
+    <div className=" w-full h-screen flex items-center  flex-col">
       <h1
-        className=" text-9xl bg-clip-text text-transparent bg-fixed"
+        className=" text-9xl bg-clip-text text-transparent bg-fixed my-auto cursor-pointer"
         style={{
           backgroundImage: 'url("/images/hero-background.webp")',
         }}
+        onClick={() => window.scrollTo(0, 500)}
       >
         zero-one
       </h1>

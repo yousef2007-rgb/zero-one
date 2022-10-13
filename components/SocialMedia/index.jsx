@@ -5,7 +5,7 @@ import Instagram from "../../public/icons/instagramLogo";
 import Youtube from "../../public/icons/youtubeLogo";
 export default function Index({}) {
   return (
-    <div className=" flex ml-auto">
+    <div className=" flex ">
       <Button Icon={<Instagram />} link={"#"} />
     </div>
   );
