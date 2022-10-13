@@ -2,12 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 @tailwind variants;
+@import url("https://fonts.googleapis.com/css2?family=Silkscreen&display=swap");
 html,
 body {
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  transition: color 500ms ease-in;
 }
 
 a {
@@ -17,6 +19,7 @@ a {
 
 * {
   box-sizing: border-box;
+  transition: color 500ms ease-in-out, fill 500ms ease-in-out;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -25,6 +28,29 @@ a {
   }
   body {
     color: white;
-    background: black;
+    background: #1c1b1c;
+    min-height: 100vh;
+    svg {
+      width: 30px;
+      margin: 12px;
+      path {
+        fill: white;
+      }
+    }
+    h1 {
+      font-size: 2rem;
+      font-family: "Silkscreen", cursive;
+      width: fit-content;
+    }
+    a:hover {
+      color: rgb(249, 115, 22);
+      path {
+        fill: rgb(249, 115, 22);
+      }
+    }
   }
+}
+
+:root {
+  color-scheme: dark;
 }
