@@ -5,7 +5,7 @@ const Button = ({ link, Icon }) => {
   return (
     <a
       href={link}
-      target="_blank"
+      target="blank"
       className=" uppercase p-5 bg-myorang text-robot"
     >
       {Icon}
