@@ -1,8 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Silkscreen&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 @tailwind variants;
-@import url("https://fonts.googleapis.com/css2?family=Silkscreen&display=swap");
+@layer utilities {
+  .bg-myblack {
+    background-color: #1c1b1c;
+  }
+  .bg-myorange {
+    background-color: #fb6a4b;
+  }
+  .text-robot {
+    font-family: "Silkscreen", cursive;
+  }
+}
+$red: #fb6a4b;
 html,
 body {
   padding: 0;
@@ -19,7 +31,8 @@ a {
 
 * {
   box-sizing: border-box;
-  transition: color 500ms ease-in-out, fill 500ms ease-in-out;
+  transition: color 500ms ease-in-out, fill 500ms ease-in-out,
+    background-color 500ms ease-in-out;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -43,9 +56,9 @@ a {
       width: fit-content;
     }
     a:hover {
-      color: rgb(249, 115, 22);
+      color: $red;
       path {
-        fill: rgb(249, 115, 22);
+        fill: $red;
       }
     }
   }

@@ -1,7 +1,12 @@
 .container {
-}
-
-.header {
+  height: 200vh;
+  header {
+    span {
+      h1:hover {
+        color: #fb6a4b;
+      }
+    }
+  }
 }
 
 .main {
