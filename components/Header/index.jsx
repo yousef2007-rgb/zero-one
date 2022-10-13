@@ -5,7 +5,7 @@ import logo from "../../public/images/logo.gif";
 import Image from "next/image";
 export default function Index({}) {
   return (
-    <header className=" flex items-center p-4 fixed w-screen bg-opacity-50 bg-myblack">
+    <header className=" flex items-center p-4 fixed w-full max-w-6xl bg-opacity-50 bg-myblack">
       <span className="flex items-center">
         <h1 className=" uppercase bold cursor-pointer ">zero-one</h1>
         <Image src={logo} alt="" width={65} height={65} />

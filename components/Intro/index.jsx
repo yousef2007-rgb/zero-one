@@ -12,11 +12,13 @@ export default function Intro() {
       >
         zero-one
       </h1>
+      {/*
       <div className=" flex justify-evenly w-full mt-16">
         <Button link={"#"} name="something" margin={8} />
         <Button link={"#"} name="about us" margin={0} />
         <Button link={"#"} name="something" margin={8} />
       </div>
+    */}
     </div>
   );
 }
