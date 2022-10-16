@@ -1,9 +1,12 @@
 import React from "react";
 
-export default function Link({ link, name }) {
+export default function Link({ name, spot }) {
   return (
-    <a href={link} className=" mx-3 text-robot ">
+    <button
+      className=" mx-3 text-robot hover:text-myorange "
+      onClick={() => window.scrollTo(0, spot)}
+    >
       {name}
-    </a>
+    </button>
   );
 }

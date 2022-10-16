@@ -3,10 +3,9 @@ import Link from "./Link";
 export default function Navigation() {
   return (
     <nav className=" ml-auto tablet:hidden">
-      <Link link={"#"} name={"About Us"} />
-      <Link link={"#"} name={"FLL"} />
-      <Link link={"#"} name={"WRO"} />
-      <Link link={"#"} name={"Ball collecter"} />
+      <Link spot={700} name={"About Us"} />
+      <Link spot={1500} name={"compititions"} />
+      <Link spot={4700} name={"participants"} />
     </nav>
   );
 }
