@@ -35,7 +35,7 @@ const card = ({ image, name, description, hueA, hueB }) => {
         variants={cardVariants}
         initial="offscreen"
         whileInView="onscreen"
-        viewport={{ once: false, amount: 0.8 }}
+        viewport={{ once: true, amount: 0.8 }}
       >
         <img
           src={`/images/members/${image}`}
