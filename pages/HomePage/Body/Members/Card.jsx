@@ -6,7 +6,7 @@ const cardVariants = {
     scale: 0.7,
   },
   onscreen: {
-    y: 0,
+    y: 10,
     rotate: -10,
     scale: 0.7,
     transition: {
@@ -42,8 +42,10 @@ const card = ({ image, name, description, hueA, hueB }) => {
           alt={name}
           className=" rounded-full w-3/4 aspect-square object-cover"
         />
-        <h2 className=" text-5xl text-robot my-6">{name}</h2>
-        <p className=" text-3xl font-bold capitalize ">{description}</p>
+        <h2 className=" text-5xl text-robot my-6 tablet:text-4xl">{name}</h2>
+        <p className=" text-3xl font-bold capitalize tablet:text-2xl">
+          {description}
+        </p>
       </motion.div>
     </div>
   );
