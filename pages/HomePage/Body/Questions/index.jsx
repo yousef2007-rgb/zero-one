@@ -6,6 +6,7 @@ export default function Questions() {
     <>
       {QuestionsData.map((value, index) => (
         <Question
+          key={index}
           questions={value.questions}
           answer={value.answer}
           color={value.color}
