@@ -1,3 +1,4 @@
+import Footer from "../../components/Footer";
 import Body from "./Body";
 import Header from "../../components/Header";
 import Intro from "../../components/Intro";
@@ -18,7 +19,7 @@ export default function Home() {
       <Intro />
       <Body />
 
-      <footer className={styles.footer}></footer>
+      <Footer />
     </div>
   );
 }
