@@ -40,8 +40,8 @@ a {
 
 * {
   box-sizing: border-box;
-  transition: color 500ms ease-in-out, fill 500ms ease-in-out,
-    background-color 500ms ease-in-out, transform 500ms ease-in-out;
+  transition: color 500ms ease-in-out, fill 500ms ease-in-out;
+  text-align: center;
 }
 
 @media (prefers-color-scheme: dark) {

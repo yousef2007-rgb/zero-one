@@ -28,14 +28,14 @@ export default function Body({}) {
       <Question
         questions={["FLL", "WRO 🏆"]}
         answer={
-          "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
+          "FIRST® LEGO® League introduces science, technology, engineering, and math (STEM) to children ages 4-16* through fun, exciting hands-on learning."
         }
         color={`purple`}
       />
       <Question
         questions={["WRO", "who is particpating? 👦"]}
         answer={
-          "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
+          "World Robot Olympiad Association™ is an independent non-profit organization. All revenue from sponsorships and fees is invested in support of our mission, which is to promote robotics in STEM education worldwide."
         }
         color={`turquoise`}
       />

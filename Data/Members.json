@@ -1,0 +1,38 @@
+[
+    {
+        "name":"Issa Seitan",
+        "image":"issa.jpg",
+        "description":"Hi I am issa I love robotics and I think it's the future of the humanity people. I love to creat and to programing robot 🤖 and my dream to achieve and win a world competition in robot",
+        "hueA":340,
+        "hueB":10
+    },
+    {
+        "name":"AbdAllah Haymoor",
+        "image":"haymur.jpg",
+        "description":"Hi I am Abdullah I love robotics because it stimulates critical thinking and I love that .",
+        "hueA":20,
+        "hueB":40
+    },
+    {
+        "name":"Rayyan hamdan",
+        "image":"rayan.jpg",
+        "description":"hi I am rayan i am interested in robotics specialy in engineering I made to many robots and my dream to participate in fll competition",
+        "hueA":60,
+        "hueB":90
+    },
+    {
+        "name":"Hashim Alnadi",
+        "image":"hashim.jpg",
+        "description":"Hi I am Hashim I am trainee in robotics specialy coding . My dream to be a professional in robotics and be like my friends and more better",
+        "hueA":205,
+        "hueB":245
+    },
+
+    {
+        "name":"Isam Seitan",
+        "image":"isam.jpeg",
+        "description":"Hi I am Hashim I am trainee in robotics specialy coding . My dream to be a professional in robotics and be like my friends and more better",
+        "hueA":260,
+        "hueB":290
+    }
+]

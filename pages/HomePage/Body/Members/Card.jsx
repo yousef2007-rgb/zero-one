@@ -2,13 +2,13 @@ import React from "react";
 import { motion } from "framer-motion";
 const cardVariants = {
   offscreen: {
-    y: 300,
-    scale: 0.5,
+    y: 100,
+    scale: 0.7,
   },
   onscreen: {
-    y: 50,
+    y: 0,
     rotate: -10,
-    scale: 0.5,
+    scale: 0.7,
     transition: {
       type: "spring",
       bounce: 0.4,
@@ -19,10 +19,10 @@ const cardVariants = {
 /**
  *
  */
-const card = ({ image, name, description }) => {
+const card = ({ image, name, description, hueA, hueB }) => {
   const hue = (h) => `hsl(${h}, 100%, 50%)`;
 
-  const background = `linear-gradient(306deg, ${hue(340)}, ${hue(10)})`;
+  const background = `linear-gradient(306deg, ${hue(hueA)}, ${hue(hueB)})`;
   return (
     <div className="relative">
       {" "}
@@ -35,12 +35,12 @@ const card = ({ image, name, description }) => {
         variants={cardVariants}
         initial="offscreen"
         whileInView="onscreen"
-        viewport={{ once: true, amount: 0.8 }}
+        viewport={{ once: false, amount: 0.8 }}
       >
         <img
           src={`/images/members/${image}`}
           alt={name}
-          className=" rounded-full w-3/4 "
+          className=" rounded-full w-3/4 aspect-square object-cover"
         />
         <h2 className=" text-5xl text-robot my-6">{name}</h2>
         <p className=" text-3xl font-bold capitalize ">{description}</p>

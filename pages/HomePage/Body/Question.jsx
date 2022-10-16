@@ -2,11 +2,11 @@ import React from "react";
 import { motion } from "framer-motion";
 export default function Question({ questions, answer, color }) {
   return !color ? (
-    loading
+    "loading"
   ) : (
     <section className="h-screen flex flex-col items-center justify-center">
       <motion.h2
-        className=" inline-block text-gray7 px-6 py-4 text-6xl shadow-xl text-robot w-fit"
+        className=" inline-block text-gray7 px-6 py-4 text-5xl shadow-xl text-robot w-fit"
         style={{
           backgroundColor: color,
         }}
@@ -16,7 +16,7 @@ export default function Question({ questions, answer, color }) {
         {questions[0]}
       </motion.h2>
       <motion.p
-        className="text-5xl text-gray3 px-4 text-normal text-center my-16"
+        className="text-3xl text-gray3 px-4 text-normal text-center my-16"
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         transition={{ delay: 1 }}
