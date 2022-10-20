@@ -21,6 +21,13 @@
         "hueB":90
     },
     {
+        "name":"Mahmoud Shwiki",
+        "image":"mahmoud.jpg",
+        "description":"Hi my name is Mahmoud, I love working with robots ,I have a background with programming. ",
+        "hueA":140,
+        "hueB":200
+    },
+    {
         "name":"Hashim Alnadi",
         "image":"hashim.jpg",
         "description":"Hi I am Hashim I am trainee in robotics specialy coding . My dream to be a professional in robotics and be like my friends and more better",
@@ -34,12 +41,6 @@
         "description":"Hi I am issam I love robotics because it makes me much better in many things like programing and how to solve math problems and so on . My dream is to be the best man in the world in robotics.",
         "hueA":260,
         "hueB":290
-    },
-    {
-        "name":"Mahmoud Shwiki",
-        "image":"mahmoud.jpg",
-        "description":"طز",
-        "hueA":260,
-        "hueB":290
     }
+
 ]
