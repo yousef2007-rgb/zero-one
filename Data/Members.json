@@ -16,7 +16,7 @@
     {
         "name":"Rayyan hamdan",
         "image":"rayan.jpg",
-        "description":"hi I am rayan i am interested in robotics specialy in engineering I made to many robots and my dream to participate in fll competition",
+        "description":"hi I am rayan i am interested in robotics specialy in engineering I made to many robots",
         "hueA":60,
         "hueB":90
     },
@@ -32,6 +32,13 @@
         "name":"Isam Seitan",
         "image":"isam.jpeg",
         "description":"Hi I am issam I love robotics because it makes me much better in many things like programing and how to solve math problems and so on . My dream is to be the best man in the world in robotics.",
+        "hueA":260,
+        "hueB":290
+    },
+    {
+        "name":"Mahmoud Shwiki",
+        "image":"mahmoud.jpg",
+        "description":"طز",
         "hueA":260,
         "hueB":290
     }
