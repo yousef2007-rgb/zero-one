@@ -4,9 +4,9 @@ export default function Question({ questions, answer, color }) {
   return !color ? (
     "loading"
   ) : (
-    <section className="h-screen flex flex-col items-center justify-center">
+    <section className="flex flex-col items-center justify-center h-screen">
       <motion.h2
-        className=" inline-block text-gray7 px-6 py-4 text-5xl shadow-xl text-robot w-fit tablet:text-4xl mx-1"
+        className="inline-block px-6 py-4 mx-1 text-5xl shadow-xl  text-gray7 text-robot w-fit tablet:text-4xl"
         style={{
           backgroundColor: color,
         }}
@@ -16,7 +16,7 @@ export default function Question({ questions, answer, color }) {
         {questions[0]}
       </motion.h2>
       <motion.p
-        className="text-3xl text-gray3 px-4 text-normal text-center my-16 tablet:text-2xl"
+        className="px-4 my-16 text-3xl text-center text-gray3 text-normal tablet:text-2xl"
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         transition={{ delay: 0.25 }}
@@ -24,8 +24,10 @@ export default function Question({ questions, answer, color }) {
         {answer}
       </motion.p>
       <motion.span
-        className="animate-bounce text-3xl block cursor-pointer mt-16 bold tablet:text-2xl"
-        onClick={() => window.scrollTo(0, window.pageYOffset + 800)}
+        className="block mt-16 text-3xl cursor-pointer animate-bounce bold tablet:text-2xl"
+        onClick={() =>
+          window.scrollTo(0, window.pageYOffset + window.innerHeight)
+        }
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         transition={{ delay: 0.5 }}
